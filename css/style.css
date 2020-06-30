@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-color: rgb(219,219,255);
+    width: 100vw;
+    height: 100vh;
+}
+
+.form { 
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 400px;
+    margin-top: 70px;
+}
+
+.table > div {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: 1px solid black;
+}
+
+.not-ready{
+	background: red;
+}
+
+.ready{
+	background: green;
+}
+
+a{
+	margin: 20px;
+	font-size: 20px;
+}
